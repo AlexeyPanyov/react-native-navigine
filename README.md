@@ -19,9 +19,6 @@ Library for using our SDK (android, IOS) in react-native
 
 ```import React from 'react';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   NativeModules,
   Button,
