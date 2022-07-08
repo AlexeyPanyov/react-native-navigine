@@ -17,7 +17,7 @@ Library for using our SDK (android, IOS) in react-native
 5. Get permissions
 ``` await PermissionsAndroid.request()```
 6.  Import IconMapObject;
-'''import IconMapObject from 'naviginereactnativetest18/components/IconMapObjectView';'''  
+```import IconMapObject from 'naviginereactnativetest18/components/IconMapObjectView';```
 
  
 ```import React from 'react';
