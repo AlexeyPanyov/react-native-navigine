@@ -7,15 +7,15 @@ Library for using our SDK (android, IOS) in react-native
 # Example of using for android
 ### Using ###
 1. Import 'LocationView'.
-2. 
+
 ```import LocationView from 'naviginereactnativetest18';```
 
 2. Import NavigineModule.
-3. 
+
 ```const {NavigineModule} = NativeModules;```
 
 3. Add LocationView with styles.
-4. 
+ 
 ``` <LocationView style={{width: '100%', height: 400}} />```
 
 4. Use function Navigine.Init("user-hash", "server").
