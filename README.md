@@ -76,7 +76,7 @@ const App = () => {
               }}
             />
           </LocationView>
-          <Button onPress={initView} title="Get Permissions" />
+          <Button onPress={initView} title="initialization View" />
           <Button onPress={requestPermission} title="Get Permissions" />
         </View>
 
