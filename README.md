@@ -40,8 +40,7 @@ Library for using our SDK (android, IOS) in react-native
  
 9. Use method addListner.
  
- ```const eventEmitter = new NativeEventEmitter(NavigineModule)
-    eventEmitter.addListener('EventReminder', event => {console.log(event);});```
+ ```eventEmitter.addListener('EventReminder', event => {console.log(event);});```
     
   
 ```import React from 'react';
