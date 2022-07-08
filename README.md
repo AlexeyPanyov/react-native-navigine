@@ -6,13 +6,13 @@ Library for using our SDK (android, IOS) in react-native
 ```npm i naviginereactnativetest18```
 # Example of using for android
 ### Using ###
-1)Import 'LocationView'.
+1 Import 'LocationView'.
 
-2)Import NavigineModule.
+2 Import NavigineModule.
 
-3)Add LocationView with styles.
+3 Add LocationView with styles.
 
-4)Use function Navigine.Init("user-hash", "server").
+4 Use function Navigine.Init("user-hash", "server").
 
 
 ```import React from 'react';
