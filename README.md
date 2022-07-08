@@ -45,6 +45,7 @@ Library for using our SDK (android, IOS) in react-native
       setCoords(event);
     });```
     
+    
 ```import React from 'react';
 import {
   NativeModules,
