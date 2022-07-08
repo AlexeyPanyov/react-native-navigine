@@ -18,7 +18,6 @@ Library for using our SDK (android, IOS) in react-native
 
 ```import React from 'react';
 import {
-  StyleSheet,
   NativeModules,
   Button,
   PermissionsAndroid,
