@@ -32,7 +32,7 @@ const App = () => {
   const {NavigineModule} = NativeModules;
   const [coords, setCoords] = React.useState({x: 10, y: 10});
   const initView = () => {
-    NavigineModule.init('F90F-0202-58ED-7F06', 'https://api.navigine.com');
+    NavigineModule.init('user-hash', 'server');
   };
   React.useEffect(() => {
     const eventEmitter = new NativeEventEmitter(NavigineModule);
