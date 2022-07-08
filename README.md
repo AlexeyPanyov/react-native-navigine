@@ -38,14 +38,11 @@ Library for using our SDK (android, IOS) in react-native
  
  ```const eventEmitter = new NativeEventEmitter(NavigineModule);```
  
-9. Use method addListner
+9. Use method addListner.
  
- ```const eventEmitter = new NativeEventEmitter(NavigineModule);
-    eventEmitter.addListener('EventReminder', event => {
-      setCoords(event);
-    });```
+ ```const eventEmitter = new NativeEventEmitter(NavigineModule) eventEmitter.addListener('EventReminder', event => {console.log(event);});```
     
-    
+  
 ```import React from 'react';
 import {
   NativeModules,
