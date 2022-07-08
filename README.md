@@ -42,4 +42,4 @@ const { NavigineModule } = NativeModules;
 
     </View>
     );
-}```
+}
