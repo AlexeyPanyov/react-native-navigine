@@ -1,7 +1,5 @@
 
- 107  
-README.md
-@@ -1,54 +1,75 @@
+
 # React-Native Navigine
 Library for using our SDK (android, IOS) in react-native
 # Installation
