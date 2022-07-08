@@ -1,4 +1,19 @@
-import React from 'react';
+
+ 107  
+README.md
+@@ -1,54 +1,75 @@
+# React-Native Navigine
+Library for using our SDK (android, IOS) in react-native
+# Installation
+```npm i naviginereactnativetest18```
+# Example of using for android
+### Using ###
+1)Import 'LocationView'.
+2)Import NavigineModule.
+3)Add LocationView with styles.
+4)Use function Navigine.Init("user-hash", "server").
+
+```import React from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -72,4 +87,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App;```
