@@ -5,6 +5,11 @@ npm i naviginereactnativetest18
 
 # Example of using for android
 ### Using View ###
+1)Import 'LocationView'.
+2)Import NavigineModule.
+3)Add LocationView with styles.
+4)Use function Navigine.Init("user-hash", "server").
+
 // js
 ```
 import React from 'react';
