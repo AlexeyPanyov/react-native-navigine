@@ -69,9 +69,7 @@ const App = () => {
   };
 
   return (
-    <SafeAreaView>
-      <StatusBar />
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
+
         <View>
           <LocationView style={{width: '100%', height: 400}}>
             <IconMapObject
@@ -86,9 +84,8 @@ const App = () => {
           <Button onPress={initView} title="Get Permissions" />
           <Button onPress={requestPermission} title="Get Permissions" />
         </View>
-      </ScrollView>
-    </SafeAreaView>
+
   );
 };
 
-export default App;```
+export default App;
