@@ -30,7 +30,20 @@ Library for using our SDK (android, IOS) in react-native
 
 ```import IconMapObject from 'naviginereactnativetest18/components/IconMapObjectView';```
 
+7. Add LocationView with properties x, y, locationId, siblocationId.
+```<IconMapObject objectPosition={{x: number, y: number, locationId: number, sublsocationId: number, }} />```
  
+8. Import NativeEventEmitter and use with NavigineModule.
+ 
+ ```const eventEmitter = new NativeEventEmitter(NavigineModule);```
+ 
+9. Use method addListner
+ 
+ ```    const eventEmitter = new NativeEventEmitter(NavigineModule);
+    eventEmitter.addListener('EventReminder', event => {
+      setCoords(event);
+    });```
+    
 ```import React from 'react';
 import {
   NativeModules,
