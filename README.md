@@ -14,6 +14,7 @@ Library for using our SDK (android, IOS) in react-native
 
 4. Use function Navigine.Init("user-hash", "server").
 
+5. Get permissions
 
 ```import React from 'react';
 import {
