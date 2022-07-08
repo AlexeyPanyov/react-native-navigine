@@ -6,7 +6,8 @@ npm i naviginereactnativetest18
 # Example of using for android
 ### Using View ###
 // js
-`import React from 'react';
+`
+import React from 'react';
 import LocationView from 'naviginereactnativetest18';
 import {
   NativeModules,
