@@ -1,4 +1,4 @@
-# React-Bative Navigine
+# React-Native Navigine
 Library for using our SDK (android, IOS) in react-native
 # Installation
 npm i naviginereactnativetest18
