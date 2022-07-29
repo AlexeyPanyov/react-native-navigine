@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D6D0F52892D3BF0034087B /* NaviginePolylineMapObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D0ED2892D3BF0034087B /* NaviginePolylineMapObjectView.m */; };
+		62D6D0F62892D3BF0034087B /* NavigineIconMapObjectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D6D0EE2892D3BF0034087B /* NavigineIconMapObjectView.h */; };
+		62D6D0F72892D3BF0034087B /* RNNCLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D0EF2892D3BF0034087B /* RNNCLocationView.m */; };
+		62D6D0F82892D3BF0034087B /* NaviginePolylineMapObjectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D6D0F02892D3BF0034087B /* NaviginePolylineMapObjectView.h */; };
+		62D6D0F92892D3BF0034087B /* NavigineCircleMapObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D0F12892D3BF0034087B /* NavigineCircleMapObjectView.m */; };
+		62D6D0FA2892D3BF0034087B /* RNNCLocationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D6D0F22892D3BF0034087B /* RNNCLocationView.h */; };
+		62D6D0FB2892D3BF0034087B /* NavigineIconMapObjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D0F32892D3BF0034087B /* NavigineIconMapObjectView.m */; };
+		62D6D0FC2892D3BF0034087B /* NavigineCircleMapObjectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D6D0F42892D3BF0034087B /* NavigineCircleMapObjectView.h */; };
+		62D6D0FE2892D3C80034087B /* RCTConvert+RNNavigineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D0FD2892D3C80034087B /* RCTConvert+RNNavigineView.m */; };
+		62D6D1092892D4170034087B /* NavigineLocationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D6D0FF2892D4160034087B /* NavigineLocationView.h */; };
+		62D6D10A2892D4170034087B /* NavigineIconMapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D1002892D4160034087B /* NavigineIconMapObject.m */; };
+		62D6D10B2892D4170034087B /* NavigineCircleMapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D1012892D4170034087B /* NavigineCircleMapObject.m */; };
+		62D6D10C2892D4170034087B /* NaviginePolylineMapObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D6D1022892D4170034087B /* NaviginePolylineMapObject.h */; };
+		62D6D10D2892D4170034087B /* NavigineCircleMapObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D6D1032892D4170034087B /* NavigineCircleMapObject.h */; };
+		62D6D10E2892D4170034087B /* NavigineIconMapObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D6D1042892D4170034087B /* NavigineIconMapObject.h */; };
+		62D6D10F2892D4170034087B /* NavigineLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D1052892D4170034087B /* NavigineLocationView.m */; };
+		62D6D1102892D4170034087B /* NaviginePolylneMapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6D1062892D4170034087B /* NaviginePolylneMapObject.m */; };
+		62D6D1112892D4170034087B /* Navigine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D6D1082892D4170034087B /* Navigine.framework */; platformFilter = ios; };
+		B3E7B58A1CC2AC0600A0062D /* RNNavigineModule.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNNavigineModule.m */; };
+		D615FE4C222D655B0044E3FA /* RNNavigineModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E7B5881CC2AC0600A0062D /* RNNavigineModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNNavigineModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNNavigineModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D6D0ED2892D3BF0034087B /* NaviginePolylineMapObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviginePolylineMapObjectView.m; sourceTree = "<group>"; };
+		62D6D0EE2892D3BF0034087B /* NavigineIconMapObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigineIconMapObjectView.h; sourceTree = "<group>"; };
+		62D6D0EF2892D3BF0034087B /* RNNCLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNCLocationView.m; sourceTree = "<group>"; };
+		62D6D0F02892D3BF0034087B /* NaviginePolylineMapObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviginePolylineMapObjectView.h; sourceTree = "<group>"; };
+		62D6D0F12892D3BF0034087B /* NavigineCircleMapObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigineCircleMapObjectView.m; sourceTree = "<group>"; };
+		62D6D0F22892D3BF0034087B /* RNNCLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNCLocationView.h; sourceTree = "<group>"; };
+		62D6D0F32892D3BF0034087B /* NavigineIconMapObjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigineIconMapObjectView.m; sourceTree = "<group>"; };
+		62D6D0F42892D3BF0034087B /* NavigineCircleMapObjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigineCircleMapObjectView.h; sourceTree = "<group>"; };
+		62D6D0FD2892D3C80034087B /* RCTConvert+RNNavigineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+RNNavigineView.m"; sourceTree = "<group>"; };
+		62D6D0FF2892D4160034087B /* NavigineLocationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigineLocationView.h; sourceTree = "<group>"; };
+		62D6D1002892D4160034087B /* NavigineIconMapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigineIconMapObject.m; sourceTree = "<group>"; };
+		62D6D1012892D4170034087B /* NavigineCircleMapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigineCircleMapObject.m; sourceTree = "<group>"; };
+		62D6D1022892D4170034087B /* NaviginePolylineMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviginePolylineMapObject.h; sourceTree = "<group>"; };
+		62D6D1032892D4170034087B /* NavigineCircleMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigineCircleMapObject.h; sourceTree = "<group>"; };
+		62D6D1042892D4170034087B /* NavigineIconMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigineIconMapObject.h; sourceTree = "<group>"; };
+		62D6D1052892D4170034087B /* NavigineLocationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigineLocationView.m; sourceTree = "<group>"; };
+		62D6D1062892D4170034087B /* NaviginePolylneMapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviginePolylneMapObject.m; sourceTree = "<group>"; };
+		62D6D1082892D4170034087B /* Navigine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Navigine.framework; sourceTree = "<group>"; };
+		B3E7B5881CC2AC0600A0062D /* RNNavigineModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNavigineModule.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNNavigineModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNavigineModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D6D1112892D4170034087B /* Navigine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNNavigineModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				62D6D1032892D4170034087B /* NavigineCircleMapObject.h */,
+				62D6D1012892D4170034087B /* NavigineCircleMapObject.m */,
+				62D6D1042892D4170034087B /* NavigineIconMapObject.h */,
+				62D6D1002892D4160034087B /* NavigineIconMapObject.m */,
+				62D6D0FF2892D4160034087B /* NavigineLocationView.h */,
+				62D6D1052892D4170034087B /* NavigineLocationView.m */,
+				62D6D1022892D4170034087B /* NaviginePolylineMapObject.h */,
+				62D6D1062892D4170034087B /* NaviginePolylneMapObject.m */,
+				62D6D1072892D4170034087B /* Prebuild */,
+				D6F326A923C26911000C7D4A /* View */,
+				D6F326A823C268CB000C7D4A /* Converter */,
+				B3E7B5881CC2AC0600A0062D /* RNNavigineModule.h */,
+				B3E7B5891CC2AC0600A0062D /* RNNavigineModule.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62D6D1072892D4170034087B /* Prebuild */ = {
+			isa = PBXGroup;
+			children = (
+				62D6D1082892D4170034087B /* Navigine.framework */,
+			);
+			path = Prebuild;
+			sourceTree = "<group>";
+		};
+		D6F326A823C268CB000C7D4A /* Converter */ = {
+			isa = PBXGroup;
+			children = (
+				62D6D0FD2892D3C80034087B /* RCTConvert+RNNavigineView.m */,
+			);
+			path = Converter;
+			sourceTree = "<group>";
+		};
+		D6F326A923C26911000C7D4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62D6D0F42892D3BF0034087B /* NavigineCircleMapObjectView.h */,
+				62D6D0F12892D3BF0034087B /* NavigineCircleMapObjectView.m */,
+				62D6D0EE2892D3BF0034087B /* NavigineIconMapObjectView.h */,
+				62D6D0F32892D3BF0034087B /* NavigineIconMapObjectView.m */,
+				62D6D0F02892D3BF0034087B /* NaviginePolylineMapObjectView.h */,
+				62D6D0ED2892D3BF0034087B /* NaviginePolylineMapObjectView.m */,
+				62D6D0F22892D3BF0034087B /* RNNCLocationView.h */,
+				62D6D0EF2892D3BF0034087B /* RNNCLocationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D615FE4B222D65510044E3FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D6D0FA2892D3BF0034087B /* RNNCLocationView.h in Headers */,
+				62D6D10E2892D4170034087B /* NavigineIconMapObject.h in Headers */,
+				62D6D0F82892D3BF0034087B /* NaviginePolylineMapObjectView.h in Headers */,
+				62D6D10C2892D4170034087B /* NaviginePolylineMapObject.h in Headers */,
+				62D6D0FC2892D3BF0034087B /* NavigineCircleMapObjectView.h in Headers */,
+				62D6D1092892D4170034087B /* NavigineLocationView.h in Headers */,
+				D615FE4C222D655B0044E3FA /* RNNavigineModule.h in Headers */,
+				62D6D0F62892D3BF0034087B /* NavigineIconMapObjectView.h in Headers */,
+				62D6D10D2892D4170034087B /* NavigineCircleMapObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNNavigineModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNNavigineModule" */;
+			buildPhases = (
+				D615FE4B222D65510044E3FA /* Headers */,
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				D6D0D4EE222E8AC800838171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNNavigineModule;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNNavigineModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNNavigineModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNNavigineModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6D0D4EE222E8AC800838171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D6D0FB2892D3BF0034087B /* NavigineIconMapObjectView.m in Sources */,
+				62D6D10F2892D4170034087B /* NavigineLocationView.m in Sources */,
+				62D6D0F92892D3BF0034087B /* NavigineCircleMapObjectView.m in Sources */,
+				62D6D0F52892D3BF0034087B /* NaviginePolylineMapObjectView.m in Sources */,
+				62D6D0F72892D3BF0034087B /* RNNCLocationView.m in Sources */,
+				62D6D10B2892D4170034087B /* NavigineCircleMapObject.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNNavigineModule.m in Sources */,
+				62D6D10A2892D4170034087B /* NavigineIconMapObject.m in Sources */,
+				62D6D1102892D4170034087B /* NaviginePolylneMapObject.m in Sources */,
+				62D6D0FE2892D3C80034087B /* RCTConvert+RNNavigineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Prebuild",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNNavigineModule;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Prebuild",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNNavigineModule;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNNavigineModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNNavigineModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
