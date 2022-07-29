@@ -2,7 +2,7 @@
 #import <MapKit/MapKit.h>
 #import <math.h>
 #import "NavigineCircleMapObject.h"
-#import "NavigineModule.h"
+#import "RNNavigineModule.h"
 
 #import "View/NavigineCircleMapObjectView.h"
 #import "View/RNNCLocationView.h"

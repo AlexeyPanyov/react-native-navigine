@@ -2,7 +2,7 @@
 #import <MapKit/MapKit.h>
 #import <math.h>
 #import "NavigineIconMapObject.h"
-#import "NavigineModule.h"
+#import "RNNavigineModule.h"
 
 #import "View/NavigineIconMapObjectView.h"
 #import "View/RNNCLocationView.h"

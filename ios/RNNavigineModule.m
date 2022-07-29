@@ -1,4 +1,4 @@
-#import "NavigineModule.h"
+#import "RNNavigineModule.h"
 #import <React/RCTLog.h>
 
 #import <Navigine/Navigine.h>

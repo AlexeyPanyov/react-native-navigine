@@ -2,7 +2,7 @@
 #import <MapKit/MapKit.h>
 #import <math.h>
 #import "NaviginePolylineMapObject.h"
-#import "NavigineModule.h"
+#import "RNNavigineModule.h"
 
 #import "View/NaviginePolylineMapObjectView.h"
 #import "View/RNNCLocationView.h"

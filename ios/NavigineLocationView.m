@@ -1,7 +1,7 @@
 #import <React/RCTViewManager.h>
 
 #import "NavigineLocationView.h"
-#import "NavigineModule.h"
+#import "RNNavigineModule.h"
 #import "View/RNNCLocationView.h"
 
 #import "Converter/RCTConvert+RNNavigineView.m"
