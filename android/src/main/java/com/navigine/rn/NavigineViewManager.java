@@ -1,4 +1,4 @@
-package com.awesomeprnavigine.rnoject;
+package com.navigine.rn;
 
 import android.view.View;
 
