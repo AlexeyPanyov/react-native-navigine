@@ -1,3 +1,7 @@
+## Example project
+
+- [Navigine basic example](https://github.com/Navigine/react-native-navigine-example)
+
 ## Basic Usage
 
 ```
